@@ -1,5 +1,5 @@
 pipeline{
-    agent none   //没有指定agent
+    agent any   //没有指定agent
     stages{
         stage('checkout code00000'){
             steps{
